@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+
+        <meta name="viewport" content="width=device-width"> 
+
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" crossorigin="anonymous">
+
+        <link rel="stylesheet" href="reset.css">
+
+        <link rel="stylesheet" href="style.css">
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Cairo+Play:wght@200..1000&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Honk&display=swap" rel="stylesheet">
+
+        <title>Desafío Encriptador> </title>
+
+        <link rel="shortcut icon" href="https://cdn6.aptoide.com/imgs/5/f/b/5fbc209c8b010d62bdf44087286f70a9_icon.png?w=128">
+
+        <script src="app.js" defer></script>
+
+    </head>
+    <body>
+        <div>
+          <header>
+             <img id="logoHeader" src="imagenes/header.png">
+             <h1>¡Bienvenido/a al Encriptador de Texto!</h1>
+          </header>
+        </div>
+        <main>
+            <div class="contenidoCentral">
+              <textarea id="textareaOriginal" placeholder="Ingresar solo letras minúsculas y sin tildes"></textarea>
+                <div id="containerImagen">
+                    <ul>
+                        <li >
+                        <img id="imagenDescripcion" src="imagenes/lateral.gif">
+                        <h2>Ningun Mensaje fue Encontrado</h2>
+                        <p class="descripcion">Ingrese el texto que desea encriptar o desencriptar</p>
+                        </li>
+                    </ul>
+                </div>
+                <div id="containerFinal" style="display: none">
+                    <textarea id="textareaFinal"></textarea>
+                    <ul id="ListaFinal">
+                        <li>
+                            <h1>Texto Obtenido</h1>
+                            <img id="imagenFinal" src="imagenes/output.gif">
+                            <button onclick="copiar()"; id="copiar" value="copiar">Copiar</button>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+                <div class="containerButtons">
+                    <button class="botones" onclick="agregarTextoEncriptado()" id="encriptar">Encriptar</button>
+                    <button class="botones" onclick="agregarTextoDesencriptado()" id="desencriptar">Desencriptar</button>         
+                </div>
+        </main>
+     <footer>
+        <div>
+            <p class="copyright"> © Copyright Freytes Santiago y Cataldo Cinthya - Oracle Next Education: GRUPO 6</p>
+        </div>
+        <div class="linkRedes">
+            <div class="footerRedesCinthya">
+                <ul>
+                    <li>
+                        <p>Cataldo Cinthya</p>
+                    </li>
+                    <li>
+                        <a href="https://www.linkedin.com/in/cinthya-cataldo/" target="_blank" class="fab linkedin-icon">
+                            <i class="fab fa-linkedin"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://github.com/Cinthy98" target="_blank" class="fab github-icon">
+                            <i class="fab fa-github"></i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="footerRedesSantiago">
+                <ul>
+                    <li>
+                        <p>Freytes Santiago</p>
+                    </li>
+                    <li>
+                        <a href="https://www.linkedin.com/in/santiago-freytes-086159b8/" target="_blank" class="fab linkedin-icon">
+                            <i class="fab fa-linkedin"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://github.com/santiagofreytes99" target="_blank" class="fab github-icon">
+                            <i class="fab fa-github"></i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+     </footer>
+    </body>
+</html>
