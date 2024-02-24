@@ -249,6 +249,7 @@ color: white
 #fondoPagina{
     text-align: center;
     background-color: white;
+    width: 100%;
 }
 
 #botonEncriptador{
@@ -285,6 +286,10 @@ color: white
         margin: 0 5%;
     }
 
+    #fondoHome{
+        width: 100%;
+    }
+    
     #containerImagen,
     #containerFinal {
         width: 90%;
