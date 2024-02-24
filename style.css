@@ -283,7 +283,7 @@ color: white
 
     #textareaOriginal {
         width: 90%;
-        margin: 0 5%;
+        margin: 0 5% 35px;
     }
 
     #fondoHome{
@@ -293,7 +293,7 @@ color: white
     #containerImagen,
     #containerFinal {
         width: 90%;
-        margin: 0 5%;
+        margin: 0 5% 35px;
     }
 
     .containerButtons {
@@ -332,13 +332,14 @@ color: white
 
     #textareaOriginal {
         width: 90%;
-        margin: 0 5%;
+        margin: 0 5% 35px;
     }
 
     #containerImagen,
     #containerFinal {
         width: 90%;
         margin: 0 5%;
+        margin: 0 5% 35px;
     }
 
     .containerButtons {
